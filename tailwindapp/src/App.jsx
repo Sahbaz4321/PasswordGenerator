@@ -2,7 +2,10 @@
 import './App.css'
 import Card from './components/Card'
 import Counter from './components/Counter'
+import Currency from './components/Currency'
 import PasswordGenerator from './components/PasswordGenerator'
+import UseCurrencyInfo from './components/UseCurrencyInfo'
+import UseMemoDemo from './components/UseMemoDemo'
 
 function App() {
 
@@ -12,9 +15,12 @@ function App() {
 
   return (
     <>
+{/* <UseCurrencyInfo currency="inr"/> */}
 
+{/* <Currency/> */}
 
-<PasswordGenerator/>
+{/* <PasswordGenerator/> */}
+{/* <UseMemoDemo/> */}
 {/* 
 <div className="w-full h-screen duration-200" style={{backgroundColor:color}}>
 COLOR IS BLUE

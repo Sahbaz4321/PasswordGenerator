@@ -45,7 +45,7 @@ export default function PasswordGenerator() {
               value={Password}
               placeholder="Password"
               readOnly
-              className="outline-none w-full py-1 px-3"
+              className="bg-white outline-none w-full py-1 px-3"
             ></input>
             <button
               onClick={copyPasswordToClipboard}
